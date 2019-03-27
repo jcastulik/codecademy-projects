@@ -1,36 +1,29 @@
 # Codecademy projects All In One!
 
+This is list of most projects I had to create to finish Web Development Path on Codecademy (https://www.codecademy.com).
+
 ```
 I skipped few courses fromWeb Development path because of their character (working in command line, testing..).Theese courses are:
 
-## Learn the Command Line
-Discover the power of this simple yet essential text-based tool and increase your productivity as a developer.
+Learn the Command Line (discover the power of this simple yet essential text-based tool and increase your productivity as a developer)
 
-## Learn Git
-Learn to save and manage different versions of your code projects with this essential tool.
+Learn Git (learn to save and manage different versions of your code projects with this essential too)
 
-## JavaScript Back-End Development
-Learn how to create back-end servers and APIs in JavaScript using the popular Express.js framework.
+JavaScript Back-End Development (learn how to create back-end servers and APIs in JavaScript using the popular Express.js framework)
 
-## SQL and Databases for Web Development
-Learn the SQL fundamentals needed to be a successful full-stack web developer.
+SQL and Databases for Web Development (learn the SQL fundamentals needed to be a successful full-stack web developer)
 
-## Test-Driven Development with JavaScript
-Master the fundamentals of Test-Driven Development to create reliable full-stack JavaScript web applications.
+Test-Driven Development with JavaScript (master the fundamentals of Test-Driven Development to create reliable full-stack JavaScript web applications)
 ```
 
-### Hello There
-
-This is list of all projects I had to create to finish Web Development Path on Codecademy (https://www.codecademy.com).
-
-### Learn HTML
+## Learn HTML
 
 Get started as a web developer by learning the basics of HTML, the essential language of the web.
 
 1. Fashion Blog
 2. Wine Festival Schedule
 
-### Styling a Website
+## Styling a Website
 
 Learn and practice the fundamentals of CSS to add beautiful styling to your webpages.
 
@@ -38,7 +31,7 @@ Learn and practice the fundamentals of CSS to add beautiful styling to your webp
 4. Olivia Woodruff Portfolio
 5. Dasmoto's Arts & Crafts
 
-### Getting Started with JavaScript
+## Getting Started with JavaScript
 
 Learn the fundamentals of JavaScript: syntax, variables, conditionals, and functions.
 
@@ -49,7 +42,7 @@ Learn the fundamentals of JavaScript: syntax, variables, conditionals, and funct
 10. Rock, Paper, or Scissors
 11. Sleep Debt Calculator
 
-### Getting More Advanced with Design
+## Getting More Advanced with Design
 
 Learn CSS techniques for more interesting sites: display & positioning, colors, typography, responsive design, and flexbox.
 
@@ -61,7 +54,7 @@ Learn CSS techniques for more interesting sites: display & positioning, colors, 
 17. Flexbox: To-Do App
 18. Tea Cozy
 
-### JavaScript: Arrays, Loops, and Objects
+## JavaScript: Arrays, Loops, and Objects
 
 Discover more JavaScript techniques and features including arrays, looping, and objects.
 
@@ -73,7 +66,7 @@ Discover more JavaScript techniques and features including arrays, looping, and 
 24. Team Stats
 25. Lodash
 
-### Building Interactive JavaScript Websites
+## Building Interactive JavaScript Websites
 
 Learn the Document Object Model, the interface between JavaScript and HTML elements, and combine HTML, CSS, and JavaScript into exciting interactive sites!
 
@@ -81,7 +74,7 @@ Learn the Document Object Model, the interface between JavaScript and HTML eleme
 27. Piano Keys
 28. Musicon
 
-### Introduction to jQuery
+## Introduction to jQuery
 
 Learn the basics of jQuery, a JavaScript library that allows you to easily add dynamic behavior to static web pages.
 
@@ -94,7 +87,7 @@ I skipped project called Trivia Card because I did not find html and css files
 31. Web Safe Font Preview
 32. Gameboard
 
-### Intermediate JavaScript
+## Intermediate JavaScript
 
 Learn more techniques to extend your JavaScript knowledge including reusable classes, splitting code into modules, and making HTTP requests.
 
@@ -104,7 +97,7 @@ Learn more techniques to extend your JavaScript knowledge including reusable cla
 36. WorkAround
 37. Wanderlust
 
-### Building Front-end Applications with React
+## Building Front-end Applications with React
 
 Learn to build dynamic and powerful web apps using React.js, a component-based front-end framework.
 

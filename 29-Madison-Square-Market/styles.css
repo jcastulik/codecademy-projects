@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 45px 0;
+  background-color: #0074ff;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+  line-height: 30px;
+}
+
+.header li + li {
+  margin-left: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header h3 {
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.header .dropdown {
+  position: relative;
+}
+
+.header .dropdown-menu {
+  position: absolute;
+  top: 20px;
+  border-radius: 0;
+}
+
+.header .dropdown-menu li {
+  display: block;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+/* Main */
+.main {
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/2/madison-square-market/s1.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background-color: #0074ff;
+  padding: 20px 0;
+  height: 200px;
+}
+
+
+@media (max-width: 1024px) {
+  .header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pull-right {
+    float: none !important;
+    margin: 20px auto 0;
+    width: 225px;
+  }
+}

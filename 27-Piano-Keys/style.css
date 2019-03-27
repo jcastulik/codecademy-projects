@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ffc63f;
+}
+.title{
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+  color: #141c3a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#demo{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #141c3a;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.piano{
+  width: 305px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fd4d3f;
+  margin-top: 30px;
+}
+.key{
+  width: 30px;
+  height: 200px;
+  display: inline-block;
+  border: solid #141c3a 2px;
+  box-shadow: 2px 5px;
+  background-color: white;
+  color: #141c3a;
+}
+.black-key{
+  width: 25px;
+  height: 100px;
+  display: inline-block;
+  background-color: #141c3a;
+  color: white;
+  position: absolute;
+  margin-left: -12px;
+  padding: 0px;
+}
+.keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 175px;
+  color: #141c3a;
+}
+.black-keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+#lyrics{
+  width: 400px;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  margin-top: 50px;
+  background-color: #fd4d3f;
+}
+#column-one, #column-two, #column-three, #column-four, #column-five, #column-six, #column-optional{
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+#column-optional{
+  display: none;
+}
+#word-one, #word-two, #word-three, #word-four, #word-five, #word-six, #word-optional{
+  background-color: white;
+  width: 90px;
+  height: 25px;
+  padding-top: 10px;
+  letter-spacing: 5px;
+  color: #141c3a;
+}
+#letter-note-one, #letter-note-two, #letter-note-three, #letter-note-four, #letter-note-five, #letter-note-six, #letter-note-optional{
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+#first-next-line, #second-next-line, #third-next-line, #fourth-next-line{
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: none;
+  background-color: #ffc63f;
+  color: #141c3a;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

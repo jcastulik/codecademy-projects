@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Musicon</title>
+    <link href="public/style.css" rel="stylesheet">
+    <script src="handlebars.min.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+    {{#each instruments}}
+    	<article class="instrument">
+          <img class="image" src="{{this.image}}" alt="{{this.name}}">
+          <section class="details">
+            <h2 class="name">{{this.name}}</h2>
+            <p class="description">{{this.description}}</p>
+            {{#if sale}}
+            <p class="price"><del>Price: {{this.price}}</del></p>
+            <p class="sale">On Sale! {{this.sale}}</p>
+            {{else}}
+            <p class="price">Price: {{this.price}}</p>
+            {{/if}}
+          </section>
+			</article>
+    {{/each}}
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Musicon</h1>
+
+        <nav>
+        	<ul class="navbar">
+            <li>
+              <a href = "index.html">Home</a>
+            </li>
+            <li class = "current">
+              <a href = "store.html">Store</a>
+            </li>
+           	<li>
+              <a href = "contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <article id="showcase">
+      <section id="information" class="container">
+
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; Musicon 2018</p>
+    </footer>
+
+    <script src="public/main.js"></script>
+  </body>
+</html>

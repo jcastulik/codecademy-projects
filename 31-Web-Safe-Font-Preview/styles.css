@@ -1,0 +1,92 @@
+body {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/jquery/images/typetile.png");
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container{
+  width: 100%;
+}
+h1 {
+  color: #FF6D04;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 1rem;
+  text-align: center;
+}
+
+h2 {
+  color: #665C3D;
+  font-size: .9rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-family: "verdana";
+}
+
+.preview {
+  align: center;
+  background: white;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+
+  min-height: 150px;
+  padding: 30;
+  word-wrap: break-word;
+}
+
+textarea {
+  border-color: #E6B000;
+  border-radius: 4px;
+  border-style: solid;
+  border-width:1px;
+  display: block;
+  font-family: "Helvetica-Light", "Helvetica", "Arial", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 30px auto 30px auto;
+  padding: 20px;
+}
+
+.formHolder {
+  background-color: #665C3D;
+  border-radius: 4px 4px 0px 0px;
+  color: #FF6D04;
+  font-family: "verdana";
+  font-size: 0.75rem;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.form {
+  display: inline;
+}
+
+.third {
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+input {
+  display: inline;
+}
+
+#fonts {
+  margin-left: 4px;
+}
+
+#weight {
+}

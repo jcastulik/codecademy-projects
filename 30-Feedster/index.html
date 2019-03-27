@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedster</title>
+	<link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet">
+</head>
+ <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2">
+            <h1>feedster</h1>
+          </div>
+          <div class="col-xs-7">
+          </div>
+
+          <div class="col-xs-2">
+            <h1 class="menu">menu</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class='nav-menu'>
+    <div class='container-nav'>
+      <ul>
+        <li>Bang Bang</li>
+        <li>Mexican-Chinese</li>
+        <li>Indo-Scandinavian</li>
+        <li>Polish-Korean</li>
+      </ul>
+      <ul>
+        <li>Contact</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+  </div>
+
+    <form method= "POST" class="newPost">
+      <div class="container">
+        <div class="post">
+          <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-purple.svg">
+          <h3 class='name'>YOUR NAME HERE</h3>
+          <textarea class="postText" placeholder="What's on your mind?"></textarea>
+          <p class="wordcount"><span class='characters'>140</span> characters remaining</p>
+          <div class="button-holder">
+            <button type="submit" class="btn-post">POST</button>
+            <button type="submit" class="btn-post">WORD COUNT</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="posts">
+      <div class="container">
+        <div class="post">
+          <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-teal.svg">
+          <h3>Ivory Breath</h3>
+          <p>Buffalo bulgogi, are you kidding me!?! Do yourself a favor and head to this restaurant.</p>
+          <button class="btn">+1</button>
+        </div>
+
+        <div class="post">
+          <img class="avatar" src="https://s3.amazonaws.com/codecademy-content/courses/jquery+jfiddle+test/feedster/profile-yellow.svg">
+          <h3>Bacon West</h3>
+          <p>Tacos, sausage, fundido, saurkraut and more! 10/10 would recommend.</p>
+          <button class="btn">+1</button>
+        </div>
+
+      </div>
+    </div>
+
+   <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  <script src='main.js'></script>
+  </body>
+
+</html>

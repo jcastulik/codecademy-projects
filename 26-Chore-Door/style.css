@@ -1,0 +1,71 @@
+body {
+  background-color: #3a3838;
+  margin: 0px;
+}
+
+.header {
+  background-color: #636060;
+  text-align: center;
+}
+
+.title-row {
+  text-align: center;
+  margin-bottom: 21px;
+  margin-top: 42px;
+}
+
+.instructions-title {
+  display: inline;
+  font-size: 25px;
+  color: #00ffff;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  text-shadow: 2px 2px #262525;
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-family: 'Helvetica';
+  font-size: 24px;
+  color: #00ffff;
+  text-shadow: 2px 2px #262525;
+}
+
+.instructions-text {
+  padding: 8px;
+  font-family: 'Helvetica';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+}
+
+.door-row {
+  text-align: center;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.start-row {
+  margin: auto;
+  margin-bottom: 22px;
+  width: 120px;
+  height: 36px;
+  font-family: 'Helvetica';
+  background-color: #3c5dea;
+  color: #ffffff;
+  padding-top: 18px;
+  text-align: center;
+  cursor: pointer;
+  text-shadow: 3px 3px #000000;
+  border-style: solid;
+  border-color: #000;
+}

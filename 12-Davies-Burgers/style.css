@@ -1,0 +1,130 @@
+/* Universal Styles */
+
+body {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+}
+
+nav img {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+
+nav span {
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px 0px;
+}
+
+nav a {
+  color: #666666;
+}
+
+/* Content Container */
+
+.content {
+  width: 100%;
+  height: 500px;
+  margin: 10px auto;
+  overflow: scroll;
+
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-position: center;
+  background-size: cover;
+   height: 320px;
+}
+
+.header h1 {
+  background-color: #05A8AA;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Content Body */
+
+.content .body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 100%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #05A8AA;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+}
+
+.button:hover {
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  padding: 20px;
+}
+
+ul.nutrition li {
+  display: inline-block;
+  background-color: #05A8AA;
+  list-style: none;
+  width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
